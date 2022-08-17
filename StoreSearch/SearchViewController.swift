@@ -34,6 +34,10 @@ extension SearchViewController: UISearchBarDelegate {
         }
         tableView.reloadData()
     }
+    // Строка поиска “прикрепляется” к верхней части экрана
+    func position(for bar: UIBarPositioning) -> UIBarPosition {
+        return .topAttached
+    }
 }
 
 // MARK: - Table View Delegate
