@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="NyT-Eg-7gd">
+                            <searchBar contentMode="redraw" placeholder="App name, artist, song, album, e-book" translatesAutoresizingMaskIntoConstraints="NO" id="NyT-Eg-7gd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
