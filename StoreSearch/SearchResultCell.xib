@@ -15,25 +15,37 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtX-1V-eWa">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtX-1V-eWa">
                         <rect key="frame" x="84" y="16" width="275" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvE-uN-VR7">
-                        <rect key="frame" x="84" y="44" width="275" height="18"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvE-uN-VR7">
+                        <rect key="frame" x="84" y="46" width="275" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8xo-cJ-3ho">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8xo-cJ-3ho">
                         <rect key="frame" x="16" y="10" width="60" height="60"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="1V9-Au-I0B"/>
+                            <constraint firstAttribute="width" constant="60" id="tnX-lH-L2p"/>
+                        </constraints>
                     </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="8xo-cJ-3ho" firstAttribute="leading" secondItem="wNs-Qp-Azk" secondAttribute="leading" constant="16" id="2K9-Y8-WUx"/>
+                    <constraint firstItem="XvE-uN-VR7" firstAttribute="top" secondItem="XtX-1V-eWa" secondAttribute="bottom" constant="8" id="2tR-Gl-kKt"/>
+                    <constraint firstItem="8xo-cJ-3ho" firstAttribute="top" secondItem="wNs-Qp-Azk" secondAttribute="top" constant="10" id="SmU-oZ-OYF"/>
+                    <constraint firstAttribute="trailing" secondItem="XtX-1V-eWa" secondAttribute="trailing" constant="16" id="c4G-sx-cAv"/>
+                    <constraint firstItem="XtX-1V-eWa" firstAttribute="top" secondItem="wNs-Qp-Azk" secondAttribute="top" constant="16" id="eAL-4D-5TY"/>
+                    <constraint firstItem="XtX-1V-eWa" firstAttribute="leading" secondItem="8xo-cJ-3ho" secondAttribute="trailing" constant="8" id="fmB-q2-X3g"/>
+                    <constraint firstItem="XvE-uN-VR7" firstAttribute="leading" secondItem="8xo-cJ-3ho" secondAttribute="trailing" constant="8" id="kaG-8Y-FKC"/>
+                    <constraint firstAttribute="trailing" secondItem="XvE-uN-VR7" secondAttribute="trailing" constant="16" id="pHS-3G-QqB"/>
+                    <constraint firstAttribute="bottom" secondItem="XvE-uN-VR7" secondAttribute="bottom" constant="16" id="qFy-zX-Sbr"/>
+                </constraints>
             </tableViewCellContentView>
             <point key="canvasLocation" x="394.92753623188406" y="-34.151785714285715"/>
         </tableViewCell>
