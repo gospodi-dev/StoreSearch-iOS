@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC12544A28AD1984000C0547 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC12544928AD1984000C0547 /* SearchResult.swift */; };
+		CC12544C28AE6F0D000C0547 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC12544B28AE6F0D000C0547 /* SearchResultCell.xib */; };
 		CCF9E30028AC13BD0078032E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9E2FF28AC13BD0078032E /* AppDelegate.swift */; };
 		CCF9E30228AC13BD0078032E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9E30128AC13BD0078032E /* SceneDelegate.swift */; };
 		CCF9E30428AC13BD0078032E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9E30328AC13BD0078032E /* SearchViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		CC12544928AD1984000C0547 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		CC12544B28AE6F0D000C0547 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		CCF9E2FC28AC13BD0078032E /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9E2FF28AC13BD0078032E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF9E30128AC13BD0078032E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				CCF9E30A28AC13BD0078032E /* LaunchScreen.storyboard */,
 				CCF9E30D28AC13BD0078032E /* Info.plist */,
 				CC12544928AD1984000C0547 /* SearchResult.swift */,
+				CC12544B28AE6F0D000C0547 /* SearchResultCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				CCF9E30C28AC13BD0078032E /* LaunchScreen.storyboard in Resources */,
 				CCF9E30928AC13BD0078032E /* Assets.xcassets in Resources */,
+				CC12544C28AE6F0D000C0547 /* SearchResultCell.xib in Resources */,
 				CCF9E30728AC13BD0078032E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
