@@ -51,6 +51,11 @@
                     <constraint firstAttribute="bottom" secondItem="XvE-uN-VR7" secondAttribute="bottom" constant="16" id="qFy-zX-Sbr"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="artistNameLabel" destination="XvE-uN-VR7" id="mrs-8o-n7w"/>
+                <outlet property="artworkImageView" destination="8xo-cJ-3ho" id="brQ-aN-3gP"/>
+                <outlet property="nameLabel" destination="XtX-1V-eWa" id="0iW-Pm-yz2"/>
+            </connections>
             <point key="canvasLocation" x="394.92753623188406" y="-34.151785714285715"/>
         </tableViewCell>
     </objects>
