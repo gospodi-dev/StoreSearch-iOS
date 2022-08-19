@@ -66,10 +66,10 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         let cellIdentifier = "SearchResultCell"
         
         var cell: UITableViewCell! = tableView.dequeueReusableCell(
-            withIdentifier: cellIdentifier)
+          withIdentifier: cellIdentifier)
         if cell == nil {
-            cell = UITableViewCell(
-                style: .subtitle, reuseIdentifier: cellIdentifier)
+          cell = UITableViewCell(
+            style: .subtitle, reuseIdentifier: cellIdentifier)
         }
         if searchResults.count == 0 {
             cell.textLabel!.text = "(Nothing found)"
